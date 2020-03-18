@@ -41,10 +41,11 @@
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse" id="NavCol">
 						<ul class="nav navbar-nav navbar-right">
-							<li class="current"></li><a href="#about" class="linear">Home</a></li>
-							<a href="#aboutMore" class="linear">About</a>
+							<li class="current"></li>
+							<li><a href="#about" class="linear">Home</a></li>
+							<li><a href="#aboutMore" class="linear">About</a></li>
 							<li><a href="#work" class="linear">Work</a></li>
-							<li><a href="" class="linear">Blog</a></li>
+							<li><a href="https://devnashu.blogspot.in/" target="_blank" class="linear">Blog</a></li>
 							<li><a href="#contact" class="linear">Contact</a></li>
 						</ul>
 					</div>
@@ -187,7 +188,7 @@
 						<li><span>/</span></li>
 						<li><a class="btn btn-link linear" href="#" data-group="backend-development">Backend Development</a></li>
 						<li><span>/</span></li>
-						<li><a class="btn btn-link linear" href="#" data-group="mobile">Mobile</a></li>
+						<li><a class="btn btn-link linear" href="#" data-group="devops">Devops</a></li>
 					</ul>
 
 				</div>
@@ -198,45 +199,88 @@
 							<div class="container_folio clearfix gallery" id="grid">
 								
 								<!-- ==================================== 1 =============================== -->
-								<div class="col-xs-12 col-sm-4 col-md-4 box" data-groups='["all", "backend-development"]'>
+								<div class="col-xs-12 col-sm-4 col-md-4 box" data-groups='["all", "devops"]'>
 									<div class="folio-img">
 										<div class="portfolio-item ">
 											<div class="thumbnail">
 												<div class="thumb-img">
 													<div class="link-attr">
-														<a class="link-search animated linear"><i data-toggle="modal" data-target="#infrastructure" class="fa fa-search"></i></a>
+														<a class="link-search animated linear"><i data-toggle="modal" data-target="#homesecurity" class="fa fa-search"></i></a>
 														<a href="#" class="link-chain animated linear"><i class="fa fa-chain"></i></a>
 													</div>
 													<img class="linear img-portfolio img-responsive" src="img/portfolio/noimage.jpg" alt="This Is Image">
 													<div class="folio-caption" style="bottom: 0px;">
 														<i class="fa fa-caret-up"></i>
-														<p>Infrastructure Monitoring</p>
+														<p>Home Security Camera</p>
 													</div>
 												</div>
 											</div>
 										</div>
 									</div>
 								</div>
-								<div id="infrastructure" class="modal fade" role="dialog">
+								<div id="homesecurity" class="modal fade" role="dialog">
 									<div class="modal-dialog">
 										<!-- Modal content-->
 										<div class="modal-content">
 											<div class="modal-header">
 												<button type="button" class="close" data-dismiss="modal">&times;</button>
-												<h4 class="modal-title">Infrastructure Monitoring</h4>
+												<h4 class="modal-title">Home Security Camera</h4>
 											</div>
 											<div class="modal-body">
-												<p>Infrastructure monitoring enable organizations to identify and resolve AWS infrastructure problems before they
-													can adversely affect critical business processes. They give insight into the status of AWS cloud instances,
-													Dynamodb. In addition to monitoring the cloud Instances as well as application running on same. It is quickly
-													report to authorized person when any incident occur. They can also help ensure that any necessary outages have
-													minimal impact on users.</p>
+												<p>
+													It’s a smart application being developed for security cameras which covers half a market share in the US. 
+													As a DevOps team, we have setup end to end DevOps practice(CICD pipelines) which helps the organization to automatically 
+													deploy applications from dev to production. In DevOps practice, we have also covered scripting, automation and monitoring.
+													<h4 class="modal-title">My Contribution</h4>
+													<ul>
+														<li>
+															Working as a DevOps Engineer (Solution Consultant).
+														</li>
+														<li>
+															Creating the automated build and deployment process
+															for application, re-engineering setup for better user
+															experience, and leading up to building a continuous
+															integration system for all our products. Used various CI
+															tools like Jenkins, Ansible, Chef, Docker, and Kubernetes.
+														</li>
+														<li>Performed containerization of microservices using
+															Docker and rolled out to upper environments.</li>
+														<li>Implemented AWS solutions using EC2, S3, RDS, EBS,
+															Elastic Load Balancer, Auto-scaling groups.</li>
+														<li>Integrating application monitoring tools like Prometheus
+															and Appdynamics in different projects where the client
+															has 3000+ AWS instances.</li>
+														<li>Automated deployment in the Kubernetes cluster with
+															auto-scaling enabled.</li>
+														<li>Automated deployment in the kubernetes cluster using
+															Custom Helm charts and Harness.</li>
+														<li>Setup different monitoring tools like Nagios, Cloud
+															Watch, Zabbix, Prometheus, Appdynamics.</li>
+														<li>Setup HA Jfrog Artifactory to store different kinds of
+															Artifacts.</li>
+														<li>Implemented incident management using PagerDuty,
+															VictorOps, Elast Alert.</li>
+														<li>Cloud Watch – Configured monitoring metrics on AWS
+															services, which include EC2, ELB, S3, EBS, and RDS.
+															Configured alerts and alarms based on defined SNS
+															topics.</li>
+														<li>Implemented automated backup of EBS using Snapshot
+															for DR. Managing scripts for DR in AWS for volumes.</li>
+														<li>Implemented service mesh like istio.</li>
+														<li>Minimized the deployment time by 70% by
+															providing the complete CI-CD cycle and decreased
+															the failure of deployment from 30-40% to lesser
+															than 5%.</li>
+														<li>Minimized the infrastructure cost by 20% by
+															implementing proper AWS services.</li>
+													</ul>
+												</p>
 											</div>
 										</div>
 									</div>
 								</div>
 								
-								<!-- ==================================== 1 =============================== -->
+								<!-- ==================================== 2 =============================== -->
 								<div class="col-xs-12 col-sm-4 col-md-4 box" data-groups='["all", "backend-development"]'>
 									<div class="folio-img">
 										<div class="portfolio-item ">
@@ -275,7 +319,7 @@
 									</div>
 								</div>
 
-								<!-- ==================================== 2 =============================== -->
+								<!-- ==================================== 3 =============================== -->
 								<div class="col-xs-12 col-sm-4 col-md-4 box" data-groups='["all", "backend-development"]'>
 									<div class="folio-img">
 										<div class="portfolio-item ">
@@ -311,7 +355,7 @@
 										</div>
 									</div>
 								</div>
-								<!-- ==================================== 3 =============================== -->
+								<!-- ==================================== 4 =============================== -->
 								<div class="col-xs-12 col-sm-4 col-md-4 box" data-groups='["all", "backend-development"]'>
 									<div class="folio-img">
 										<div class="portfolio-item ">
@@ -383,78 +427,6 @@
 										</div>
 									</div>
 								</div>
-								<!-- ==================================== 5 =============================== -->
-								<div class="col-xs-12 col-sm-4 col-md-4 box" data-groups='["all", "backend-development"]'>
-									<div class="folio-img">
-										<div class="portfolio-item ">
-											<div class="thumbnail">
-												<div class="thumb-img">
-													<div class="link-attr">
-														<a class="link-search animated linear"><i data-toggle="modal" data-target="#myModal" class="fa fa-search"></i></a>
-														<a href="#" class="link-chain animated linear"><i class="fa fa-chain"></i></a>
-													</div>
-													<img class="linear img-portfolio img-responsive" src="img/portfolio/noimage.jpg" alt="This Is Image">
-													<div class="folio-caption" style="bottom: 0px;">
-														<i class="fa fa-caret-up"></i>
-														<p>Remote Device Management</p>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div id="myModal" class="modal fade" role="dialog">
-									<div class="modal-dialog">
-										<!-- Modal content-->
-										<div class="modal-content">
-											<div class="modal-header">
-												<button type="button" class="close" data-dismiss="modal">&times;</button>
-												<h4 class="modal-title">Remote Device Management</h4>
-											</div>
-											<div class="modal-body">
-												<p>Remote Device Management (RDM) is a platform on cloud enabling remote management of connected devices. This platform
-													comprises with services and features spanning from device on-board, device registration, authentication, device
-													configurations management and control, device monitoring and diagnostics, device software updates and maintenance.</p>
-											</div>
-										</div>
-									</div>
-								</div>
-								<!-- ==================================== 6 =============================== -->
-								<div class="col-xs-12 col-sm-4 col-md-4 box" data-groups='["all", "backend-development"]'>
-									<div class="folio-img">
-										<div class="portfolio-item ">
-											<div class="thumbnail">
-												<div class="thumb-img">
-													<div class="link-attr">
-														<a class="link-search animated linear"><i data-toggle="modal" data-target="#myModal" class="fa fa-search"></i></a>
-														<a href="#" class="link-chain animated linear"><i class="fa fa-chain"></i></a>
-													</div>
-													<img class="linear img-portfolio img-responsive" src="img/portfolio/noimage.jpg" alt="This Is Image">
-													<div class="folio-caption" style="bottom: 0px;">
-														<i class="fa fa-caret-up"></i>
-														<p>Remote Device Management</p>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div id="myModal" class="modal fade" role="dialog">
-									<div class="modal-dialog">
-										<!-- Modal content-->
-										<div class="modal-content">
-											<div class="modal-header">
-												<button type="button" class="close" data-dismiss="modal">&times;</button>
-												<h4 class="modal-title">Remote Device Management</h4>
-											</div>
-											<div class="modal-body">
-												<p>Remote Device Management (RDM) is a platform on cloud enabling remote management of connected devices. This platform
-													comprises with services and features spanning from device on-board, device registration, authentication, device
-													configurations management and control, device monitoring and diagnostics, device software updates and maintenance.</p>
-											</div>
-										</div>
-									</div>
-								</div>
 								<!-- ==================================== End =============================== -->
 							</div>
 
@@ -501,6 +473,30 @@
 						<div class="build contact clearfix text-center">
 							<span class="fa fa-skype"></span>
 							<p>devanshu.oza5833</p>
+						</div>
+					</div>
+					<div class="col-md-4 ">
+						<div class="build contact clearfix text-center">
+							<a href="https://twitter.com/devanshu5833" target="_blank">
+								<span class="fa fa-twitter"></span>
+								<p>devanshu5833</p>
+							</a>
+						</div>
+					</div>
+					<div class="col-md-4 ">
+						<div class="build contact clearfix text-center">
+							<a href="https://in.linkedin.com/in/devanshu-oza-04011195" target="_blank">
+								<span class="fa fa-linkedin-square"></span>
+								<p>devanshu-oza</p>
+							</a>
+						</div>
+					</div>
+					<div class="col-md-4 ">
+						<div class="build contact clearfix text-center">
+							<a href="https://github.com/Devanshuoza" target="_blank">
+								<span class="fa fa-github"></span>
+								<p>Devanshu5833</p>
+							</a>
 						</div>
 					</div>
 				</div>
